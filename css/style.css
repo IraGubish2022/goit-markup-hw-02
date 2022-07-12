@@ -48,14 +48,18 @@ body {
   color: var(--contacts-color);
 }
 .hero {
+  background: #2f303a;
+}
+.main-title {
+  font-family: var(--primary-font);
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.37;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
-  background: #2f303a;
 }
 .modal-btn {
   font-family: inherit;
@@ -80,15 +84,20 @@ body {
   letter-spacing: 0.03em;
 }
 .section-title {
+  font-family: var(--primary-font);
+  font-style: normal;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-text-color);
 }
 .section-description {
+  font-family: var(--primary-font);
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
@@ -118,8 +127,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  color: #212121;
-  background: #f5f4fa;
+  color: var(--primary-text-color);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -138,7 +146,7 @@ button:focus {
   color: #000000;
 }
 .logo-title-white {
-  font-family: var--secondary-font;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -148,4 +156,27 @@ button:focus {
 }
 .current {
   color: #2196f3;
+}
+.current-1 {
+  background: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+.list-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.list-description {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
 }
